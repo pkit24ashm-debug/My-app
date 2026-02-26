@@ -1,11 +1,3 @@
-import { Header } from "../components/header";
-
-export const About = () => {
-    return (
-        <div>
-            <Header />
-            <div>About Page</div>
-        </div>
-    )
-};
-
+export default function HomePage() {
+  return <div>Home Page</div>;
+}

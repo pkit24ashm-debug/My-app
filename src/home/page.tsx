@@ -1,10 +1,11 @@
 import { Header } from "../components/header";
+import { Hero } from "../components/hero";
 
-export const Home = () => {
-    return (
-        <div>
-            <Header />
-            <div>Home Page</div>
-        </div>
-    )
-};
+export default function HomePage() {
+  return (
+    <>
+      <Header />
+      <Hero />
+    </>
+  );
+}
